@@ -2,7 +2,7 @@
 import scrapy
 from douban.items import DoubanItem
 
-
+# scrapy startproject douban 创建项目
 class DoubanSpiderSpider(scrapy.Spider):
     # 爬虫名字
     name = 'douban_spider'
